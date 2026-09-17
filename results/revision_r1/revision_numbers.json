@@ -1,0 +1,926 @@
+{
+  "corpus": {
+    "articles_total": 138789,
+    "articles_after_exclusion": 134489,
+    "articles_excluded_block": 4300,
+    "days_with_articles_after_exclusion": 1524,
+    "days_base_case": 1223,
+    "days_dropped_threshold": 301,
+    "mean_daily_articles_all": 84.2,
+    "median_daily_articles_all": 66.0,
+    "articles_in_base_days": 129644
+  },
+  "table5": {
+    "mean": 33.06,
+    "median": 31.9,
+    "sd": 6.87,
+    "min": 17.92,
+    "max": 58.68,
+    "skew": 0.506,
+    "excess_kurtosis": -0.33,
+    "p25": 27.71,
+    "p75": 37.85,
+    "p95": 45.26,
+    "crisis_days": 69,
+    "episodes": 54
+  },
+  "by_year_mean": {
+    "2019": {
+      "C1": 56.1,
+      "C2": 21.8,
+      "C3": 6.3,
+      "C4": 12.4,
+      "RRS": 28.5
+    },
+    "2020": {
+      "C1": 57.8,
+      "C2": 29.7,
+      "C3": 11.0,
+      "C4": 10.0,
+      "RRS": 31.9
+    },
+    "2021": {
+      "C1": 56.7,
+      "C2": 34.4,
+      "C3": 4.0,
+      "C4": 6.8,
+      "RRS": 30.4
+    },
+    "2022": {
+      "C1": 56.4,
+      "C2": 41.5,
+      "C3": 1.8,
+      "C4": 7.0,
+      "RRS": 31.6
+    },
+    "2023": {
+      "C1": 56.8,
+      "C2": 50.1,
+      "C3": 1.7,
+      "C4": 6.2,
+      "RRS": 33.7
+    },
+    "2024": {
+      "C1": 54.7,
+      "C2": 70.8,
+      "C3": 1.6,
+      "C4": 4.4,
+      "RRS": 37.9
+    }
+  },
+  "component_corr": {
+    "C1": {
+      "C1": 1.0,
+      "C2": 0.029,
+      "C3": 0.134,
+      "C4": 0.274
+    },
+    "C2": {
+      "C1": 0.029,
+      "C2": 1.0,
+      "C3": -0.134,
+      "C4": -0.026
+    },
+    "C3": {
+      "C1": 0.134,
+      "C2": -0.134,
+      "C3": 1.0,
+      "C4": 0.209
+    },
+    "C4": {
+      "C1": 0.274,
+      "C2": -0.026,
+      "C3": 0.209,
+      "C4": 1.0
+    }
+  },
+  "component_means": {
+    "C1": 0.564,
+    "C2": 0.464,
+    "C3": 0.03,
+    "C4": 0.066
+  },
+  "stl": {
+    "interpolated_days": 500,
+    "total_days": 1723,
+    "p30": {
+      "trend_min": 26.83,
+      "trend_max": 41.11,
+      "trend_max_date": "2024-02-06",
+      "seasonal_min": -15.14,
+      "seasonal_max": 16.87,
+      "resid_max": 32.5,
+      "resid_max_date": "2020-03-04",
+      "var_share_trend": 0.348,
+      "var_share_seasonal": 0.243,
+      "var_share_resid": 0.731,
+      "trend_by_year": {
+        "2019": 29.0,
+        "2020": 31.0,
+        "2021": 29.4,
+        "2022": 30.2,
+        "2023": 33.5,
+        "2024": 39.0
+      }
+    },
+    "p7": {
+      "trend_min": 23.78,
+      "trend_max": 42.91,
+      "trend_max_date": "2024-02-23",
+      "seasonal_min": -12.79,
+      "seasonal_max": 9.74,
+      "resid_max": 31.04,
+      "resid_max_date": "2020-03-04",
+      "var_share_trend": 0.408,
+      "var_share_seasonal": 0.285,
+      "var_share_resid": 0.447,
+      "trend_by_year": {
+        "2019": 29.1,
+        "2020": 30.9,
+        "2021": 29.3,
+        "2022": 29.8,
+        "2023": 33.6,
+        "2024": 37.9
+      }
+    }
+  },
+  "top_episodes": [
+    {
+      "rank": 1,
+      "start": "2020-03-04",
+      "end": "2020-03-04",
+      "duration": 1,
+      "peak_day": "2020-03-04",
+      "peak_rrs": 58.68,
+      "z_peak": 4.23,
+      "articles_peak_day": 120,
+      "articles_episode": 120,
+      "neg_manual_episode": 59,
+      "neg_bert_episode": 89,
+      "C1": 0.69,
+      "C2": 0.575,
+      "C3": 0.492,
+      "C4": 0.525,
+      "top_headlines": {
+        "UIF investiga probable fraude al Infonavit por más de 5 mmdp": 5,
+        "Indagan transa en Infonavit por  fraude fiscal": 5,
+        "UIF investiga probable fraude al Infonavit": 2,
+        "UIF detecta fraude fiscal en Infonavit por 5 mil mdp": 2,
+        "Otorgan a mujeres 4 de cada 10 hipotecas": 2
+      },
+      "top_topics": {
+        "3_fraude_alerta_alertan_advierte": 45,
+        "0_pesos_crédito_créditos_mil": 18,
+        "2_reforma_empresas_ilegal_ley": 8
+      }
+    },
+    {
+      "rank": 2,
+      "start": "2023-01-10",
+      "end": "2023-01-10",
+      "duration": 1,
+      "peak_day": "2023-01-10",
+      "peak_rrs": 53.16,
+      "z_peak": 2.13,
+      "articles_peak_day": 218,
+      "articles_episode": 218,
+      "neg_manual_episode": 43,
+      "neg_bert_episode": 174,
+      "C1": 0.669,
+      "C2": 0.935,
+      "C3": 0.197,
+      "C4": 0.096,
+      "top_headlines": {
+        "Abarrotan Infonavit para cambiar las VSM a pesos": 4,
+        "HOY  ÚLTIMO DÍA": 4,
+        "Cuidado con las multas: actualizan valor de la UMA a 103.74 pesos para 2023": 4,
+        "Prevén aumente precio de casas": 3,
+        "Aumento a la UMA en 2023 afectará multas  créditos Infonavit y pago de impuestos": 3
+      },
+      "top_topics": {
+        "0_pesos_crédito_créditos_mil": 106,
+        "77_valor_afectará_impuestos_febrero": 12,
+        "73_reúne_impuestos_reunión_secretario": 4
+      }
+    },
+    {
+      "rank": 3,
+      "start": "2021-07-04",
+      "end": "2021-07-07",
+      "duration": 4,
+      "peak_day": "2021-07-07",
+      "peak_rrs": 52.52,
+      "z_peak": 4.53,
+      "articles_peak_day": 215,
+      "articles_episode": 556,
+      "neg_manual_episode": 12,
+      "neg_bert_episode": 355,
+      "C1": 0.719,
+      "C2": 0.93,
+      "C3": 0.0,
+      "C4": 0.274,
+      "top_headlines": {
+        "Descuenta Infonavit 50% de deuda por liquidación anticipada": 7,
+        "Descontará Infonavit 50% de deuda por liquidación anticipada": 6,
+        "Segob responde a jubilados": 5,
+        "INFONAVIT APOYA CON 50% DE DESCUENTO A QUIEN LIQUIDE SU CRÉDITO ANTICIPADAMENTE": 5,
+        "Infonavit apoya con 50 por ciento de descuento a quien liquide su crédito anticipadamente": 4
+      },
+      "top_topics": {
+        "0_pesos_crédito_créditos_mil": 251,
+        "2_reforma_empresas_ilegal_ley": 44,
+        "23_oficinas_cierran_centros_29": 16
+      }
+    },
+    {
+      "rank": 4,
+      "start": "2024-06-04",
+      "end": "2024-06-04",
+      "duration": 1,
+      "peak_day": "2024-06-04",
+      "peak_rrs": 51.39,
+      "z_peak": 3.0,
+      "articles_peak_day": 304,
+      "articles_episode": 304,
+      "neg_manual_episode": 2,
+      "neg_bert_episode": 266,
+      "C1": 0.738,
+      "C2": 0.996,
+      "C3": 0.007,
+      "C4": 0.033,
+      "top_headlines": {
+        "Rompen banderas LGBTIQ+ en oficinas del Infonavit": 32,
+        "OTORGA INFONAVIT 1.2 BILLONES DE PESOS EN CRÉDITOS EN ESTA ADMINISTRACIÓN": 19,
+        "Otorga Infonavit 1.2 billones de pesos en créditos en esta administración": 8,
+        "Derechohabientes podrán trasladar su subcuenta de INFONAVIT al ISSSTEESIN": 5,
+        "Tiene vivienda retos en déficit y financiamiento": 4
+      },
+      "top_topics": {
+        "10_comunidad_sindicato_líder_sindical": 86,
+        "0_pesos_crédito_créditos_mil": 55,
+        "6_sheinbaum_claudia_claudia sheinbaum_xóchitl": 3
+      }
+    },
+    {
+      "rank": 5,
+      "start": "2021-01-14",
+      "end": "2021-01-15",
+      "duration": 2,
+      "peak_day": "2021-01-14",
+      "peak_rrs": 51.11,
+      "z_peak": 5.8,
+      "articles_peak_day": 85,
+      "articles_episode": 138,
+      "neg_manual_episode": 91,
+      "neg_bert_episode": 92,
+      "C1": 0.655,
+      "C2": 0.388,
+      "C3": 0.682,
+      "C4": 0.094,
+      "top_headlines": {
+        "Detiene FGR por desfalco a abogados de Infonavit": 5,
+        "Perdona el Infonavit a hermanos El Mann": 3,
+        "2 millones de empleos": 3,
+        "Por millonario fraude al Infonavit caen 2 abogados y buscan a empresarios": 3,
+        "Detienen a priistas ligados a desfalco de 5 mil mdp en el Infonavit": 3
+      },
+      "top_topics": {
+        "0_pesos_crédito_créditos_mil": 27,
+        "3_fraude_alerta_alertan_advierte": 13,
+        "9_presidencial_quiebra_amlo_operaciones": 7
+      }
+    }
+  ],
+  "grid": {
+    "n_configs": 48,
+    "rows": [
+      {
+        "w": 7,
+        "tau": 1.5,
+        "g": 1,
+        "crisis_days": 143,
+        "episodes": 111,
+        "top5_detected": 5
+      },
+      {
+        "w": 7,
+        "tau": 1.5,
+        "g": 3,
+        "crisis_days": 143,
+        "episodes": 98,
+        "top5_detected": 5
+      },
+      {
+        "w": 7,
+        "tau": 1.5,
+        "g": 5,
+        "crisis_days": 143,
+        "episodes": 87,
+        "top5_detected": 5
+      },
+      {
+        "w": 7,
+        "tau": 2.0,
+        "g": 1,
+        "crisis_days": 82,
+        "episodes": 69,
+        "top5_detected": 4
+      },
+      {
+        "w": 7,
+        "tau": 2.0,
+        "g": 3,
+        "crisis_days": 82,
+        "episodes": 64,
+        "top5_detected": 4
+      },
+      {
+        "w": 7,
+        "tau": 2.0,
+        "g": 5,
+        "crisis_days": 82,
+        "episodes": 61,
+        "top5_detected": 4
+      },
+      {
+        "w": 7,
+        "tau": 2.5,
+        "g": 1,
+        "crisis_days": 56,
+        "episodes": 47,
+        "top5_detected": 4
+      },
+      {
+        "w": 7,
+        "tau": 2.5,
+        "g": 3,
+        "crisis_days": 56,
+        "episodes": 46,
+        "top5_detected": 4
+      },
+      {
+        "w": 7,
+        "tau": 2.5,
+        "g": 5,
+        "crisis_days": 56,
+        "episodes": 45,
+        "top5_detected": 4
+      },
+      {
+        "w": 7,
+        "tau": 3.0,
+        "g": 1,
+        "crisis_days": 40,
+        "episodes": 36,
+        "top5_detected": 4
+      },
+      {
+        "w": 7,
+        "tau": 3.0,
+        "g": 3,
+        "crisis_days": 40,
+        "episodes": 34,
+        "top5_detected": 4
+      },
+      {
+        "w": 7,
+        "tau": 3.0,
+        "g": 5,
+        "crisis_days": 40,
+        "episodes": 34,
+        "top5_detected": 4
+      },
+      {
+        "w": 14,
+        "tau": 1.5,
+        "g": 1,
+        "crisis_days": 112,
+        "episodes": 79,
+        "top5_detected": 5
+      },
+      {
+        "w": 14,
+        "tau": 1.5,
+        "g": 3,
+        "crisis_days": 112,
+        "episodes": 72,
+        "top5_detected": 5
+      },
+      {
+        "w": 14,
+        "tau": 1.5,
+        "g": 5,
+        "crisis_days": 112,
+        "episodes": 67,
+        "top5_detected": 5
+      },
+      {
+        "w": 14,
+        "tau": 2.0,
+        "g": 1,
+        "crisis_days": 69,
+        "episodes": 58,
+        "top5_detected": 5
+      },
+      {
+        "w": 14,
+        "tau": 2.0,
+        "g": 3,
+        "crisis_days": 69,
+        "episodes": 54,
+        "top5_detected": 5
+      },
+      {
+        "w": 14,
+        "tau": 2.0,
+        "g": 5,
+        "crisis_days": 69,
+        "episodes": 53,
+        "top5_detected": 5
+      },
+      {
+        "w": 14,
+        "tau": 2.5,
+        "g": 1,
+        "crisis_days": 40,
+        "episodes": 37,
+        "top5_detected": 4
+      },
+      {
+        "w": 14,
+        "tau": 2.5,
+        "g": 3,
+        "crisis_days": 40,
+        "episodes": 34,
+        "top5_detected": 4
+      },
+      {
+        "w": 14,
+        "tau": 2.5,
+        "g": 5,
+        "crisis_days": 40,
+        "episodes": 34,
+        "top5_detected": 4
+      },
+      {
+        "w": 14,
+        "tau": 3.0,
+        "g": 1,
+        "crisis_days": 23,
+        "episodes": 22,
+        "top5_detected": 4
+      },
+      {
+        "w": 14,
+        "tau": 3.0,
+        "g": 3,
+        "crisis_days": 23,
+        "episodes": 21,
+        "top5_detected": 4
+      },
+      {
+        "w": 14,
+        "tau": 3.0,
+        "g": 5,
+        "crisis_days": 23,
+        "episodes": 21,
+        "top5_detected": 4
+      },
+      {
+        "w": 21,
+        "tau": 1.5,
+        "g": 1,
+        "crisis_days": 116,
+        "episodes": 80,
+        "top5_detected": 5
+      },
+      {
+        "w": 21,
+        "tau": 1.5,
+        "g": 3,
+        "crisis_days": 116,
+        "episodes": 73,
+        "top5_detected": 5
+      },
+      {
+        "w": 21,
+        "tau": 1.5,
+        "g": 5,
+        "crisis_days": 116,
+        "episodes": 67,
+        "top5_detected": 5
+      },
+      {
+        "w": 21,
+        "tau": 2.0,
+        "g": 1,
+        "crisis_days": 61,
+        "episodes": 51,
+        "top5_detected": 5
+      },
+      {
+        "w": 21,
+        "tau": 2.0,
+        "g": 3,
+        "crisis_days": 61,
+        "episodes": 47,
+        "top5_detected": 5
+      },
+      {
+        "w": 21,
+        "tau": 2.0,
+        "g": 5,
+        "crisis_days": 61,
+        "episodes": 44,
+        "top5_detected": 5
+      },
+      {
+        "w": 21,
+        "tau": 2.5,
+        "g": 1,
+        "crisis_days": 32,
+        "episodes": 27,
+        "top5_detected": 4
+      },
+      {
+        "w": 21,
+        "tau": 2.5,
+        "g": 3,
+        "crisis_days": 32,
+        "episodes": 27,
+        "top5_detected": 4
+      },
+      {
+        "w": 21,
+        "tau": 2.5,
+        "g": 5,
+        "crisis_days": 32,
+        "episodes": 27,
+        "top5_detected": 4
+      },
+      {
+        "w": 21,
+        "tau": 3.0,
+        "g": 1,
+        "crisis_days": 17,
+        "episodes": 17,
+        "top5_detected": 3
+      },
+      {
+        "w": 21,
+        "tau": 3.0,
+        "g": 3,
+        "crisis_days": 17,
+        "episodes": 17,
+        "top5_detected": 3
+      },
+      {
+        "w": 21,
+        "tau": 3.0,
+        "g": 5,
+        "crisis_days": 17,
+        "episodes": 17,
+        "top5_detected": 3
+      },
+      {
+        "w": 30,
+        "tau": 1.5,
+        "g": 1,
+        "crisis_days": 104,
+        "episodes": 70,
+        "top5_detected": 5
+      },
+      {
+        "w": 30,
+        "tau": 1.5,
+        "g": 3,
+        "crisis_days": 104,
+        "episodes": 65,
+        "top5_detected": 5
+      },
+      {
+        "w": 30,
+        "tau": 1.5,
+        "g": 5,
+        "crisis_days": 104,
+        "episodes": 58,
+        "top5_detected": 5
+      },
+      {
+        "w": 30,
+        "tau": 2.0,
+        "g": 1,
+        "crisis_days": 53,
+        "episodes": 44,
+        "top5_detected": 5
+      },
+      {
+        "w": 30,
+        "tau": 2.0,
+        "g": 3,
+        "crisis_days": 53,
+        "episodes": 42,
+        "top5_detected": 5
+      },
+      {
+        "w": 30,
+        "tau": 2.0,
+        "g": 5,
+        "crisis_days": 53,
+        "episodes": 40,
+        "top5_detected": 5
+      },
+      {
+        "w": 30,
+        "tau": 2.5,
+        "g": 1,
+        "crisis_days": 26,
+        "episodes": 24,
+        "top5_detected": 4
+      },
+      {
+        "w": 30,
+        "tau": 2.5,
+        "g": 3,
+        "crisis_days": 26,
+        "episodes": 24,
+        "top5_detected": 4
+      },
+      {
+        "w": 30,
+        "tau": 2.5,
+        "g": 5,
+        "crisis_days": 26,
+        "episodes": 23,
+        "top5_detected": 4
+      },
+      {
+        "w": 30,
+        "tau": 3.0,
+        "g": 1,
+        "crisis_days": 17,
+        "episodes": 17,
+        "top5_detected": 3
+      },
+      {
+        "w": 30,
+        "tau": 3.0,
+        "g": 3,
+        "crisis_days": 17,
+        "episodes": 17,
+        "top5_detected": 3
+      },
+      {
+        "w": 30,
+        "tau": 3.0,
+        "g": 5,
+        "crisis_days": 17,
+        "episodes": 17,
+        "top5_detected": 3
+      }
+    ],
+    "share_configs_detecting_top_episode": [
+      1.0,
+      0.5,
+      1.0,
+      0.812,
+      1.0
+    ]
+  },
+  "pca": {
+    "loadings_pc1": {
+      "C1": 0.553,
+      "C2": -0.166,
+      "C3": 0.529,
+      "C4": 0.622
+    },
+    "explained_share_pc1": 0.357,
+    "weights_abs_normalized": {
+      "C1": 0.296,
+      "C2": 0.089,
+      "C3": 0.283,
+      "C4": 0.333
+    }
+  },
+  "weights": [
+    {
+      "variant": "Baseline (0.35, 0.25, 0.25, 0.15)",
+      "days": 1223,
+      "r_with_base": 1.0,
+      "crisis_days": 69,
+      "episodes": 54,
+      "jaccard_crisis_days": 1.0,
+      "top5_detected": 5,
+      "mean": 33.06,
+      "sd": 6.87
+    },
+    {
+      "variant": "Equal (0.25, 0.25, 0.25, 0.25)",
+      "days": 1223,
+      "r_with_base": 0.993,
+      "crisis_days": 70,
+      "episodes": 54,
+      "jaccard_crisis_days": 0.878,
+      "top5_detected": 5,
+      "mean": 28.08,
+      "sd": 6.86
+    },
+    {
+      "variant": "Sentiment-heavy (0.50, 0.20, 0.20, 0.10)",
+      "days": 1223,
+      "r_with_base": 0.981,
+      "crisis_days": 75,
+      "episodes": 56,
+      "jaccard_crisis_days": 0.8,
+      "top5_detected": 5,
+      "mean": 38.73,
+      "sd": 6.12
+    },
+    {
+      "variant": "Volume-heavy (0.25, 0.35, 0.25, 0.15)",
+      "days": 1223,
+      "r_with_base": 0.983,
+      "crisis_days": 71,
+      "episodes": 55,
+      "jaccard_crisis_days": 0.867,
+      "top5_detected": 5,
+      "mean": 32.05,
+      "sd": 8.95
+    },
+    {
+      "variant": "Sentiment-excluded (0.00, 0.40, 0.35, 0.25)",
+      "days": 1223,
+      "r_with_base": 0.951,
+      "crisis_days": 65,
+      "episodes": 54,
+      "jaccard_crisis_days": 0.696,
+      "top5_detected": 4,
+      "mean": 21.22,
+      "sd": 10.06
+    },
+    {
+      "variant": "PCA-based (0.30, 0.09, 0.28, 0.33)",
+      "days": 1223,
+      "r_with_base": 0.794,
+      "crisis_days": 76,
+      "episodes": 61,
+      "jaccard_crisis_days": 0.422,
+      "top5_detected": 5,
+      "mean": 23.82,
+      "sd": 4.57
+    }
+  ],
+  "thresholds": [
+    {
+      "variant": "min 30 articles/day",
+      "days": 1223,
+      "r_with_base": 1.0,
+      "crisis_days": 69,
+      "episodes": 54,
+      "jaccard_crisis_days": 1.0,
+      "top5_detected": 5
+    },
+    {
+      "variant": "min 10 articles/day",
+      "days": 1442,
+      "r_with_base": 0.999,
+      "crisis_days": 73,
+      "episodes": 58,
+      "jaccard_crisis_days": 0.821,
+      "top5_detected": 5
+    },
+    {
+      "variant": "min 1 articles/day",
+      "days": 1524,
+      "r_with_base": 0.997,
+      "crisis_days": 79,
+      "episodes": 61,
+      "jaccard_crisis_days": 0.682,
+      "top5_detected": 4
+    }
+  ],
+  "media": [
+    {
+      "variant": "Top-20 outlets (min 10/day)",
+      "days": 733,
+      "r_with_base": 0.651,
+      "crisis_days": 36,
+      "episodes": 31,
+      "jaccard_crisis_days": 0.207,
+      "top5_detected": 3,
+      "share_articles_top20": 0.123
+    },
+    {
+      "syndication_share_removed": 0.208
+    },
+    {
+      "variant": "Unique headlines per day (min 30/day)",
+      "days": 1177,
+      "r_with_base": 0.967,
+      "crisis_days": 59,
+      "episodes": 48,
+      "jaccard_crisis_days": 0.73,
+      "top5_detected": 4
+    }
+  ],
+  "drift": {
+    "bert_neg": {
+      "mean": 56.713,
+      "sd": 5.403,
+      "min": 44.056,
+      "max": 72.308,
+      "slope_per_month": -0.0486,
+      "p": 0.3082,
+      "r2": 0.021,
+      "months": 51
+    },
+    "bert_score": {
+      "mean": -0.141,
+      "sd": 0.053,
+      "min": -0.32,
+      "max": -0.017,
+      "slope_per_month": 0.0007,
+      "p": 0.1596,
+      "r2": 0.04,
+      "months": 51
+    },
+    "manual_neg": {
+      "mean": 3.778,
+      "sd": 4.893,
+      "min": 0.0,
+      "max": 18.316,
+      "slope_per_month": -0.1737,
+      "p": 0.0,
+      "r2": 0.33,
+      "months": 51
+    },
+    "bert_neg_among_manual_nonneg": {
+      "mean": 56.07,
+      "slope_per_month": -0.0225,
+      "p": 0.6357
+    }
+  },
+  "topic_enrichment": [
+    {
+      "topic": "3_fraude_alerta_alertan_advierte",
+      "share_crisis_days_pct": 1.92,
+      "share_other_days_pct": 0.76,
+      "ratio": 2.53
+    },
+    {
+      "topic": "9_presidencial_quiebra_amlo_operaciones",
+      "share_crisis_days_pct": 1.28,
+      "share_other_days_pct": 0.36,
+      "ratio": 3.59
+    },
+    {
+      "topic": "10_comunidad_sindicato_líder_sindical",
+      "share_crisis_days_pct": 0.77,
+      "share_other_days_pct": 0.45,
+      "ratio": 1.71
+    },
+    {
+      "topic": "2_reforma_empresas_ilegal_ley",
+      "share_crisis_days_pct": 1.87,
+      "share_other_days_pct": 0.9,
+      "ratio": 2.08
+    },
+    {
+      "topic": "1_otis_acapulco_reconstrucción_plan",
+      "share_crisis_days_pct": 0.08,
+      "share_other_days_pct": 1.23,
+      "ratio": 0.06
+    },
+    {
+      "topic": "16_alerta_trámites_riesgo_poner",
+      "share_crisis_days_pct": 0.33,
+      "share_other_days_pct": 0.35,
+      "ratio": 0.97
+    },
+    {
+      "topic": "0_pesos_crédito_créditos_mil",
+      "share_crisis_days_pct": 32.92,
+      "share_other_days_pct": 30.79,
+      "ratio": 1.07
+    }
+  ],
+  "bert_neg_share": {
+    "crisis_days_pct": 66.9,
+    "other_days_pct": 54.6
+  },
+  "coverage_2020": {
+    "2020-03": 1309,
+    "2020-04": 1580,
+    "2020-05": 1437,
+    "2020-06": 1173,
+    "2020-07": 1310,
+    "2020-08": 1293,
+    "2020-09": 521,
+    "2020-10": 2,
+    "2020-11": 1,
+    "2020-12": 1496,
+    "2021-01": 1271
+  },
+  "coverage_2022_10": 130,
+  "lexicon_hits_no_accents": 8653
+}

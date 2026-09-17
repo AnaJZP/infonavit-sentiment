@@ -1,0 +1,33 @@
+# Data files (too large for GitHub)
+*.xlsx
+*.xls
+infonavit_consolidated.csv
+infonavit_nlp_results.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Models
+results/bertopic_model/
+*.safetensors
+*.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/

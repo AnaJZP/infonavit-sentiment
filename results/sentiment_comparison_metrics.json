@@ -1,0 +1,64 @@
+{
+  "accuracy": 0.18502186772726945,
+  "cohens_kappa": -0.005558505744794884,
+  "classification_report": {
+    "Negativo": {
+      "precision": 0.03765522939095861,
+      "recall": 0.7397920365204159,
+      "f1-score": 0.07166283826112592,
+      "support": 3943.0
+    },
+    "Neutral": {
+      "precision": 0.6613578237619159,
+      "recall": 0.06668385826310176,
+      "f1-score": 0.12115210562742906,
+      "support": 85313.0
+    },
+    "Positivo": {
+      "precision": 0.3238368012746344,
+      "recall": 0.3446793047059536,
+      "f1-score": 0.3339331468695601,
+      "support": 49533.0
+    },
+    "accuracy": 0.18502186772726945,
+    "macro avg": {
+      "precision": 0.3409499514758363,
+      "recall": 0.38371839982982375,
+      "f1-score": 0.17558269691937167,
+      "support": 138789.0
+    },
+    "weighted avg": {
+      "precision": 0.5231790910347747,
+      "recall": 0.18502186772726945,
+      "f1-score": 0.195686450097244,
+      "support": 138789.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      2917,
+      168,
+      858
+    ],
+    [
+      44834,
+      5689,
+      34790
+    ],
+    [
+      29715,
+      2745,
+      17073
+    ]
+  ],
+  "nlp_distribution": {
+    "Negativo": 77466,
+    "Positivo": 52721,
+    "Neutral": 8602
+  },
+  "manual_distribution": {
+    "Neutral": 85313,
+    "Positivo": 49533,
+    "Negativo": 3943
+  }
+}

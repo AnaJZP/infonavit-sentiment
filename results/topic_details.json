@@ -1,0 +1,713 @@
+[
+  {
+    "topic_id": 0,
+    "count": 43195,
+    "keywords": "pesos, crédito, créditos, mil, tu, vivienda, pensiones, cómo",
+    "name": "0_pesos_crédito_créditos_mil",
+    "neg": 25860,
+    "neu": 2695,
+    "pos": 14640
+  },
+  {
+    "topic_id": 1,
+    "count": 1482,
+    "keywords": "otis, acapulco, reconstrucción, plan, guerrero, afectados, tras, damnificados",
+    "name": "1_otis_acapulco_reconstrucción_plan",
+    "neg": 705,
+    "neu": 56,
+    "pos": 721
+  },
+  {
+    "topic_id": 2,
+    "count": 1402,
+    "keywords": "reforma, empresas, ilegal, ley, prórroga, senado, entrevista, regular",
+    "name": "2_reforma_empresas_ilegal_ley",
+    "neg": 762,
+    "neu": 139,
+    "pos": 501
+  },
+  {
+    "topic_id": 3,
+    "count": 1179,
+    "keywords": "fraude, alerta, alertan, advierte, evitar, posibles, cuidado, proceso",
+    "name": "3_fraude_alerta_alertan_advierte",
+    "neg": 1107,
+    "neu": 5,
+    "pos": 67
+  },
+  {
+    "topic_id": 4,
+    "count": 1039,
+    "keywords": "imss, hogar, real, ante, diciembre, alta, despidos, patrones",
+    "name": "4_imss_hogar_real_ante",
+    "neg": 617,
+    "neu": 92,
+    "pos": 330
+  },
+  {
+    "topic_id": 5,
+    "count": 963,
+    "keywords": "mujeres, acceso créditos, acceso, 16, programa, créditos, acceder crédito, acceder",
+    "name": "5_mujeres_acceso créditos_acceso_16",
+    "neg": 376,
+    "neu": 130,
+    "pos": 457
+  },
+  {
+    "topic_id": 6,
+    "count": 933,
+    "keywords": "sheinbaum, claudia, claudia sheinbaum, xóchitl, gálvez, transformación, xóchitl gálvez, impunidad",
+    "name": "6_sheinbaum_claudia_claudia sheinbaum_xóchitl",
+    "neg": 298,
+    "neu": 73,
+    "pos": 562
+  },
+  {
+    "topic_id": 7,
+    "count": 889,
+    "keywords": "urbano, desarrollo, ciudades, planeación, municipal, planes, municipios, ciudad",
+    "name": "7_urbano_desarrollo_ciudades_planeación",
+    "neg": 101,
+    "neu": 57,
+    "pos": 731
+  },
+  {
+    "topic_id": 8,
+    "count": 848,
+    "keywords": "laboral, laborales, empleo, trabajo, trabajadores, jornada, derechos, sindicatos",
+    "name": "8_laboral_laborales_empleo_trabajo",
+    "neg": 344,
+    "neu": 59,
+    "pos": 445
+  },
+  {
+    "topic_id": 9,
+    "count": 655,
+    "keywords": "presidencial, quiebra, amlo, operaciones, mexicana, mal, rescate, empresa",
+    "name": "9_presidencial_quiebra_amlo_operaciones",
+    "neg": 469,
+    "neu": 28,
+    "pos": 158
+  },
+  {
+    "topic_id": 10,
+    "count": 632,
+    "keywords": "comunidad, sindicato, líder, sindical, sede, actos, instalaciones, integrantes",
+    "name": "10_comunidad_sindicato_líder_sindical",
+    "neg": 492,
+    "neu": 7,
+    "pos": 133
+  },
+  {
+    "topic_id": 11,
+    "count": 605,
+    "keywords": "político, política, candidatos, morena, propuestas, debate, federales, campaña",
+    "name": "11_político_política_candidatos_morena",
+    "neg": 252,
+    "neu": 47,
+    "pos": 306
+  },
+  {
+    "topic_id": 12,
+    "count": 592,
+    "keywords": "empresas, diez, reconoce, empresa, 10, reconocimiento, empleadores, patrones",
+    "name": "12_empresas_diez_reconoce_empresa",
+    "neg": 343,
+    "neu": 9,
+    "pos": 240
+  },
+  {
+    "topic_id": 13,
+    "count": 592,
+    "keywords": "estatales, municipales, vila, yucatán, prestaciones, convenio, mauricio, alcalde",
+    "name": "13_estatales_municipales_vila_yucatán",
+    "neg": 255,
+    "neu": 23,
+    "pos": 314
+  },
+  {
+    "topic_id": 14,
+    "count": 583,
+    "keywords": "quién, pasa, caso, qué, seguro, ahorro, cómo, recuperar",
+    "name": "14_quién_pasa_caso_qué",
+    "neg": 479,
+    "neu": 16,
+    "pos": 88
+  },
+  {
+    "topic_id": 15,
+    "count": 544,
+    "keywords": "empresarios, empresas, negocios, empresarial, economía, ven, especializados, empresariales",
+    "name": "15_empresarios_empresas_negocios_empresarial",
+    "neg": 206,
+    "neu": 50,
+    "pos": 288
+  },
+  {
+    "topic_id": 16,
+    "count": 478,
+    "keywords": "alerta, trámites, riesgo, poner, comunicación, lanza, cuidado, alertan",
+    "name": "16_alerta_trámites_riesgo_poner",
+    "neg": 348,
+    "neu": 16,
+    "pos": 114
+  },
+  {
+    "topic_id": 17,
+    "count": 428,
+    "keywords": "amlo, mañanera, conferencia, reformas, dijo, gobierno amlo, plan, vivo",
+    "name": "17_amlo_mañanera_conferencia_reformas",
+    "neg": 206,
+    "neu": 43,
+    "pos": 179
+  },
+  {
+    "topic_id": 18,
+    "count": 394,
+    "keywords": "chihuahua, beneficiados, opción chihuahua, tasas, mil, baja, interés, opción",
+    "name": "18_chihuahua_beneficiados_opción chihuahua_tasas",
+    "neg": 280,
+    "neu": 11,
+    "pos": 103
+  },
+  {
+    "topic_id": 19,
+    "count": 383,
+    "keywords": "eu, pagan, aportaciones, mdp, patronales, mexicanos, recibe, pagar",
+    "name": "19_eu_pagan_aportaciones_mdp",
+    "neg": 247,
+    "neu": 17,
+    "pos": 119
+  },
+  {
+    "topic_id": 20,
+    "count": 382,
+    "keywords": "sat, declaración, declaración anual, anual, gastos, ante, impuestos, intereses",
+    "name": "20_sat_declaración_declaración anual_anual",
+    "neg": 226,
+    "neu": 40,
+    "pos": 116
+  },
+  {
+    "topic_id": 21,
+    "count": 378,
+    "keywords": "cdmx, convenio, firman, inmobiliarios, firman convenio, 100, vivienda, acceso",
+    "name": "21_cdmx_convenio_firman_inmobiliarios",
+    "neg": 102,
+    "neu": 18,
+    "pos": 258
+  },
+  {
+    "topic_id": 22,
+    "count": 375,
+    "keywords": "economía, reactivación económica, reactivación, económica, económico, reactivar, 2024, crecimiento",
+    "name": "22_economía_reactivación económica_reactivación_económica",
+    "neg": 114,
+    "neu": 47,
+    "pos": 214
+  },
+  {
+    "topic_id": 23,
+    "count": 354,
+    "keywords": "oficinas, cierran, centros, 29, cierra, marzo, covid, servicio",
+    "name": "23_oficinas_cierran_centros_29",
+    "neg": 262,
+    "neu": 11,
+    "pos": 81
+  },
+  {
+    "topic_id": 24,
+    "count": 343,
+    "keywords": "mismo, mil créditos, otorgado, otorga, créditos, unamos créditos, unamos, más mil",
+    "name": "24_mismo_mil créditos_otorgado_otorga",
+    "neg": 314,
+    "neu": 3,
+    "pos": 26
+  },
+  {
+    "topic_id": 25,
+    "count": 319,
+    "keywords": "obrador, lópez obrador, lópez, manuel lópez, andrés manuel, andrés, manuel, conferencia",
+    "name": "25_obrador_lópez obrador_lópez_manuel lópez",
+    "neg": 119,
+    "neu": 13,
+    "pos": 187
+  },
+  {
+    "topic_id": 26,
+    "count": 299,
+    "keywords": "puntos, cuántos, tengo, cómo, mis, saber, tus, cómo saber",
+    "name": "26_puntos_cuántos_tengo_cómo",
+    "neg": 161,
+    "neu": 46,
+    "pos": 92
+  },
+  {
+    "topic_id": 27,
+    "count": 297,
+    "keywords": "vacaciones, bolsillo, socio, estas, acapulco, piden, concanaco, sector",
+    "name": "27_vacaciones_bolsillo_socio_estas",
+    "neg": 123,
+    "neu": 15,
+    "pos": 159
+  },
+  {
+    "topic_id": 28,
+    "count": 284,
+    "keywords": "impuestos, fiscales, fiscal, estímulos, empresarios, nómina, quejas, canaco",
+    "name": "28_impuestos_fiscales_fiscal_estímulos",
+    "neg": 156,
+    "neu": 27,
+    "pos": 101
+  },
+  {
+    "topic_id": 29,
+    "count": 272,
+    "keywords": "mil pesos, estados unidos, unidos, eu, estados, sueldo, trabajo, ofrece",
+    "name": "29_mil pesos_estados unidos_unidos_eu",
+    "neg": 161,
+    "neu": 27,
+    "pos": 84
+  },
+  {
+    "topic_id": 30,
+    "count": 262,
+    "keywords": "pandemia, pandemia covid, durante, afectados, ante, apoyo, medidas, covid",
+    "name": "30_pandemia_pandemia covid_durante_afectados",
+    "neg": 153,
+    "neu": 12,
+    "pos": 97
+  },
+  {
+    "topic_id": 31,
+    "count": 259,
+    "keywords": "responsabilidad, compartida, programa, universal, apoyo, febrero, continúa, participar",
+    "name": "31_responsabilidad_compartida_programa_universal",
+    "neg": 49,
+    "neu": 12,
+    "pos": 198
+  },
+  {
+    "topic_id": 32,
+    "count": 259,
+    "keywords": "convenio, colaboración, firman convenio, firman, firma, cabos, ayuntamiento, gobierno",
+    "name": "32_convenio_colaboración_firman convenio_firman",
+    "neg": 35,
+    "neu": 9,
+    "pos": 215
+  },
+  {
+    "topic_id": 33,
+    "count": 256,
+    "keywords": "toma, tabasco, vecinos, ampi, concanaco, consejo, contra, frente",
+    "name": "33_toma_tabasco_vecinos_ampi",
+    "neg": 243,
+    "neu": 2,
+    "pos": 11
+  },
+  {
+    "topic_id": 34,
+    "count": 245,
+    "keywords": "escrituras, rezago, entrega, atiende, histórico, materia, tu casa, entregan",
+    "name": "34_escrituras_rezago_entrega_atiende",
+    "neg": 138,
+    "neu": 4,
+    "pos": 103
+  },
+  {
+    "topic_id": 35,
+    "count": 243,
+    "keywords": "trabajadores, sindicato, empleados, amparo, van, central, autoridades, acusa",
+    "name": "35_trabajadores_sindicato_empleados_amparo",
+    "neg": 199,
+    "neu": 5,
+    "pos": 39
+  },
+  {
+    "topic_id": 36,
+    "count": 237,
+    "keywords": "contra, protege, precios, ahorro, ahorros, plan, está, subcuenta",
+    "name": "36_contra_protege_precios_ahorro",
+    "neg": 188,
+    "neu": 10,
+    "pos": 39
+  },
+  {
+    "topic_id": 37,
+    "count": 236,
+    "keywords": "corrupción, combatir, 600, poder, federación, actos, contra, amlo",
+    "name": "37_corrupción_combatir_600_poder",
+    "neg": 186,
+    "neu": 5,
+    "pos": 45
+  },
+  {
+    "topic_id": 38,
+    "count": 233,
+    "keywords": "medidas, crisis, ante, covid 19, 19, covid, apoyos, contingencia",
+    "name": "38_medidas_crisis_ante_covid 19",
+    "neg": 144,
+    "neu": 13,
+    "pos": 76
+  },
+  {
+    "topic_id": 39,
+    "count": 229,
+    "keywords": "covid, covid 19, 19, positivo, sanitaria, emergencia, medidas, covid19",
+    "name": "39_covid_covid 19_19_positivo",
+    "neg": 99,
+    "neu": 19,
+    "pos": 111
+  },
+  {
+    "topic_id": 40,
+    "count": 209,
+    "keywords": "mantiene, fórmula, alta, declaración, declaración anual, alto, anual, nivel",
+    "name": "40_mantiene_fórmula_alta_declaración",
+    "neg": 31,
+    "neu": 19,
+    "pos": 159
+  },
+  {
+    "topic_id": 41,
+    "count": 208,
+    "keywords": "contra, tribunal, orden, fraude, caso, reitera, ordena, proceso",
+    "name": "41_contra_tribunal_orden_fraude",
+    "neg": 185,
+    "neu": 7,
+    "pos": 16
+  },
+  {
+    "topic_id": 42,
+    "count": 205,
+    "keywords": "ip, pide, rechaza, acuerdo, exige, iniciativa, gobierno, impuestos",
+    "name": "42_ip_pide_rechaza_acuerdo",
+    "neg": 114,
+    "neu": 26,
+    "pos": 65
+  },
+  {
+    "topic_id": 43,
+    "count": 202,
+    "keywords": "tamaulipas, tampico, sur, más créditos, 600, 25 mil, mil, 25",
+    "name": "43_tamaulipas_tampico_sur_más créditos",
+    "neg": 120,
+    "neu": 9,
+    "pos": 73
+  },
+  {
+    "topic_id": 44,
+    "count": 198,
+    "keywords": "senado, aprueba, fondo, pensiones, bienestar, creación, avanza, general",
+    "name": "44_senado_aprueba_fondo_pensiones",
+    "neg": 19,
+    "neu": 11,
+    "pos": 168
+  },
+  {
+    "topic_id": 45,
+    "count": 187,
+    "keywords": "50, aniversario, celebra, años, portal, cumple, nacional, acude",
+    "name": "45_50_aniversario_celebra_años",
+    "neg": 14,
+    "neu": 1,
+    "pos": 172
+  },
+  {
+    "topic_id": 46,
+    "count": 186,
+    "keywords": "aire, comprar, mejoravit, será, te, apoya, sheinbaum, claudia sheinbaum",
+    "name": "46_aire_comprar_mejoravit_será",
+    "neg": 57,
+    "neu": 33,
+    "pos": 96
+  },
+  {
+    "topic_id": 47,
+    "count": 177,
+    "keywords": "aplicar, daños, llama, seguro, afectadas, luego, oaxaca, tras",
+    "name": "47_aplicar_daños_llama_seguro",
+    "neg": 112,
+    "neu": 4,
+    "pos": 61
+  },
+  {
+    "topic_id": 48,
+    "count": 172,
+    "keywords": "comercio, economía, desarrollo, sinaloa, ruiz, canaco, bajos, durango",
+    "name": "48_comercio_economía_desarrollo_sinaloa",
+    "neg": 87,
+    "neu": 30,
+    "pos": 55
+  },
+  {
+    "topic_id": 49,
+    "count": 165,
+    "keywords": "construcción, cmic, constructores, industria, obras, concreto, sector, preocupa",
+    "name": "49_construcción_cmic_constructores_industria",
+    "neg": 58,
+    "neu": 17,
+    "pos": 90
+  },
+  {
+    "topic_id": 50,
+    "count": 164,
+    "keywords": "irregularidades, pemex, scjn, pública, detecta, cartera vencida, vencida, cartera",
+    "name": "50_irregularidades_pemex_scjn_pública",
+    "neg": 120,
+    "neu": 15,
+    "pos": 29
+  },
+  {
+    "topic_id": 51,
+    "count": 162,
+    "keywords": "mural, unidad, proyecto, 26, través, habitantes, 15, espacios",
+    "name": "51_mural_unidad_proyecto_26",
+    "neg": 34,
+    "neu": 1,
+    "pos": 127
+  },
+  {
+    "topic_id": 52,
+    "count": 161,
+    "keywords": "transporte, tren, público, 4t, pachuca, va, marcha, legal",
+    "name": "52_transporte_tren_público_4t",
+    "neg": 92,
+    "neu": 8,
+    "pos": 61
+  },
+  {
+    "topic_id": 53,
+    "count": 153,
+    "keywords": "damnificados, acapulco, acapulco guerrero, suracapulco noticias, sur acapulco, acapulco suracapulco, suracapulco, noticias acapulco",
+    "name": "53_damnificados_acapulco_acapulco guerrero_suracapulco noticias",
+    "neg": 128,
+    "neu": 7,
+    "pos": 18
+  },
+  {
+    "topic_id": 54,
+    "count": 153,
+    "keywords": "chiapas, canaco, lanzan, diario, acerca, entregado, soluciones, delegada",
+    "name": "54_chiapas_canaco_lanzan_diario",
+    "neg": 82,
+    "neu": 9,
+    "pos": 62
+  },
+  {
+    "topic_id": 55,
+    "count": 151,
+    "keywords": "jóvenes, propia, sería, casa, tener, oportunidad, vivienda, difícil",
+    "name": "55_jóvenes_propia_sería_casa",
+    "neg": 52,
+    "neu": 11,
+    "pos": 88
+  },
+  {
+    "topic_id": 56,
+    "count": 151,
+    "keywords": "meses, seis, solo, aunque, tu crédito, sólo, puedes, crédito",
+    "name": "56_meses_seis_solo_aunque",
+    "neg": 139,
+    "neu": 6,
+    "pos": 6
+  },
+  {
+    "topic_id": 57,
+    "count": 149,
+    "keywords": "subcontratación, materia, acuerdo, reforma, incumplen, ilegal, pactan, ley",
+    "name": "57_subcontratación_materia_acuerdo_reforma",
+    "neg": 65,
+    "neu": 25,
+    "pos": 59
+  },
+  {
+    "topic_id": 58,
+    "count": 147,
+    "keywords": "inclusión, impulsa, hecho, red, promueve, materia, cumple, otro",
+    "name": "58_inclusión_impulsa_hecho_red",
+    "neg": 20,
+    "neu": 2,
+    "pos": 125
+  },
+  {
+    "topic_id": 59,
+    "count": 145,
+    "keywords": "edomex, edoméx, viviendas, obras, abandonadas, dan, casas, secretaría",
+    "name": "59_edomex_edoméx_viviendas_obras",
+    "neg": 98,
+    "neu": 4,
+    "pos": 43
+  },
+  {
+    "topic_id": 60,
+    "count": 144,
+    "keywords": "ahmsa, amlo, rescate, deuda, altos, eu, está, shcp",
+    "name": "60_ahmsa_amlo_rescate_deuda",
+    "neg": 105,
+    "neu": 11,
+    "pos": 28
+  },
+  {
+    "topic_id": 61,
+    "count": 137,
+    "keywords": "guanajuato, cartera vencida, vencida, cartera, colocación créditos, lugar, incrementa, mil",
+    "name": "61_guanajuato_cartera vencida_vencida_cartera",
+    "neg": 107,
+    "neu": 4,
+    "pos": 26
+  },
+  {
+    "topic_id": 62,
+    "count": 135,
+    "keywords": "cerca, transporte, espacios, públicos, nuevas, ayuntamiento, firman convenio, firman",
+    "name": "62_cerca_transporte_espacios_públicos",
+    "neg": 65,
+    "neu": 12,
+    "pos": 58
+  },
+  {
+    "topic_id": 63,
+    "count": 134,
+    "keywords": "nacional vivienda, nacional, feria vivienda, vivienda, vida, programa, feria, sedatu",
+    "name": "63_nacional vivienda_nacional_feria vivienda_vivienda",
+    "neg": 10,
+    "neu": 10,
+    "pos": 114
+  },
+  {
+    "topic_id": 64,
+    "count": 133,
+    "keywords": "económica, medio, transformar, coahuila, social, negocio, servicios, nl",
+    "name": "64_económica_medio_transformar_coahuila",
+    "neg": 34,
+    "neu": 11,
+    "pos": 88
+  },
+  {
+    "topic_id": 65,
+    "count": 127,
+    "keywords": "diciembre, patrones, enero, despidos, empleados, dan, baja, detectan",
+    "name": "65_diciembre_patrones_enero_despidos",
+    "neg": 122,
+    "neu": 0,
+    "pos": 5
+  },
+  {
+    "topic_id": 66,
+    "count": 126,
+    "keywords": "salario mínimo, mínimo, salario, afectará, serán, incremento, aumento, afectados",
+    "name": "66_salario mínimo_mínimo_salario_afectará",
+    "neg": 121,
+    "neu": 3,
+    "pos": 2
+  },
+  {
+    "topic_id": 67,
+    "count": 125,
+    "keywords": "regreso, descuentos, socio, ofrece, obtener, productos, descuento, gastos",
+    "name": "67_regreso_descuentos_socio_ofrece",
+    "neg": 29,
+    "neu": 9,
+    "pos": 87
+  },
+  {
+    "topic_id": 68,
+    "count": 120,
+    "keywords": "fondos, poder, corte, uso, tribunal, acusan, fiscalía, funcionarios",
+    "name": "68_fondos_poder_corte_uso",
+    "neg": 87,
+    "neu": 4,
+    "pos": 29
+  },
+  {
+    "topic_id": 69,
+    "count": 119,
+    "keywords": "durante, 2021, mil créditos, pruebas, mil, embargo, preparan, créditos",
+    "name": "69_durante_2021_mil créditos_pruebas",
+    "neg": 43,
+    "neu": 3,
+    "pos": 73
+  },
+  {
+    "topic_id": 70,
+    "count": 117,
+    "keywords": "alejandro, xóchitl, gálvez, xóchitl gálvez, derecho, oaxaca, pri, conferencia",
+    "name": "70_alejandro_xóchitl_gálvez_xóchitl gálvez",
+    "neg": 88,
+    "neu": 5,
+    "pos": 24
+  },
+  {
+    "topic_id": 71,
+    "count": 112,
+    "keywords": "espacio, cultura, tendrá, espacios, actividades, mora, vivienda, transformar",
+    "name": "71_espacio_cultura_tendrá_espacios",
+    "neg": 2,
+    "neu": 29,
+    "pos": 81
+  },
+  {
+    "topic_id": 72,
+    "count": 111,
+    "keywords": "canadevi, virtual, invitan, 2023, inauguran, morelia, vivienda, construcción",
+    "name": "72_canadevi_virtual_invitan_2023",
+    "neg": 5,
+    "neu": 0,
+    "pos": 106
+  },
+  {
+    "topic_id": 73,
+    "count": 109,
+    "keywords": "reúne, impuestos, reunión, secretario, segob, maya, apoya, gobernador",
+    "name": "73_reúne_impuestos_reunión_secretario",
+    "neg": 52,
+    "neu": 9,
+    "pos": 48
+  },
+  {
+    "topic_id": 74,
+    "count": 105,
+    "keywords": "jóvenes, más créditos, crear, niños, opciones, programas, debe, ofrece",
+    "name": "74_jóvenes_más créditos_crear_niños",
+    "neg": 35,
+    "neu": 21,
+    "pos": 49
+  },
+  {
+    "topic_id": 75,
+    "count": 105,
+    "keywords": "autoconstrucción, futuro, serán, convocatoria, programa, según, últimos, opción chihuahua",
+    "name": "75_autoconstrucción_futuro_serán_convocatoria",
+    "neg": 30,
+    "neu": 2,
+    "pos": 73
+  },
+  {
+    "topic_id": 76,
+    "count": 105,
+    "keywords": "finanzas, hacienda, financiero, financiera, informativo, uso, fondos, noticia",
+    "name": "76_finanzas_hacienda_financiero_financiera",
+    "neg": 31,
+    "neu": 14,
+    "pos": 60
+  },
+  {
+    "topic_id": 77,
+    "count": 104,
+    "keywords": "valor, afectará, impuestos, febrero, sube, aumento, trámites, 2024",
+    "name": "77_valor_afectará_impuestos_febrero",
+    "neg": 84,
+    "neu": 4,
+    "pos": 16
+  },
+  {
+    "topic_id": 78,
+    "count": 101,
+    "keywords": "21, mil créditos, comunidad, otorgó, 2019, entregó, créditos, mil",
+    "name": "78_21_mil créditos_comunidad_otorgó",
+    "neg": 80,
+    "neu": 2,
+    "pos": 19
+  }
+]
