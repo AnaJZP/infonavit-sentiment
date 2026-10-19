@@ -1,0 +1,513 @@
+{
+  "tone_audit": {
+    "raw_records": 143618,
+    "invalid_total": 30401,
+    "invalid_pct": 21.2,
+    "missing_total": 5,
+    "by_year": [
+      {
+        "anio": 2019,
+        "registros": 1534,
+        "validos": 1534,
+        "faltantes": 0,
+        "invalidos": 0,
+        "pct_invalidos": 0.0
+      },
+      {
+        "anio": 2020,
+        "registros": 12376,
+        "validos": 12376,
+        "faltantes": 0,
+        "invalidos": 0,
+        "pct_invalidos": 0.0
+      },
+      {
+        "anio": 2021,
+        "registros": 21486,
+        "validos": 10709,
+        "faltantes": 0,
+        "invalidos": 10777,
+        "pct_invalidos": 50.2
+      },
+      {
+        "anio": 2022,
+        "registros": 28502,
+        "validos": 22979,
+        "faltantes": 5,
+        "invalidos": 5523,
+        "pct_invalidos": 19.4
+      },
+      {
+        "anio": 2023,
+        "registros": 41099,
+        "validos": 41099,
+        "faltantes": 0,
+        "invalidos": 0,
+        "pct_invalidos": 0.0
+      },
+      {
+        "anio": 2024,
+        "registros": 38621,
+        "validos": 24520,
+        "faltantes": 0,
+        "invalidos": 14101,
+        "pct_invalidos": 36.5
+      }
+    ],
+    "worst_outlets": [
+      {
+        "Medio": "En Concreto",
+        "registros": 521,
+        "pct_invalidos": 28.4
+      },
+      {
+        "Medio": "El Heraldo de México",
+        "registros": 1089,
+        "pct_invalidos": 18.5
+      },
+      {
+        "Medio": "Reforma",
+        "registros": 1073,
+        "pct_invalidos": 18.2
+      },
+      {
+        "Medio": "La Jornada",
+        "registros": 1403,
+        "pct_invalidos": 18.1
+      },
+      {
+        "Medio": "El Financiero",
+        "registros": 1135,
+        "pct_invalidos": 17.5
+      }
+    ],
+    "example_invalid_values": {
+      "Positiva": 14244,
+      "Reforma pensiones": 3156,
+      "Reforma vivienda": 2123,
+      "Negativa": 2049,
+      "Soluciones de pago": 727,
+      "Ferias": 530,
+      "Fondo de pensiones para el bienestar": 509,
+      "Centro de atención": 386,
+      "Cuotas de administración": 358,
+      "Colocación de créditos": 331
+    },
+    "note": "consolidate_data.py recodificó estos valores como 'Neutral' (fillna), no como faltantes; la sección 3.1.2 debe corregirse.",
+    "corpus_matched_pct": 100.0,
+    "corpus_valid_pct": 90.0
+  },
+  "baseline": {
+    "days": 1223,
+    "crisis_days": 63,
+    "episodes": 53,
+    "mean": 33.56
+  },
+  "specs_no_sentiment": [
+    {
+      "variant": "Baseline (0.35, 0.25, 0.25, 0.15)",
+      "days": 1223,
+      "r_with_base": 1.0,
+      "crisis_days": 63,
+      "episodes": 53,
+      "jaccard": 1.0,
+      "top5_detected": 5,
+      "all54_detected": 53
+    },
+    {
+      "variant": "Without C1 (0, 0.40, 0.35, 0.25)",
+      "days": 1223,
+      "r_with_base": 0.949,
+      "crisis_days": 67,
+      "episodes": 54,
+      "jaccard": 0.625,
+      "top5_detected": 4,
+      "all54_detected": 43
+    },
+    {
+      "variant": "Without C3 (0.45, 0.35, 0, 0.20)",
+      "days": 1223,
+      "r_with_base": 0.955,
+      "crisis_days": 69,
+      "episodes": 52,
+      "jaccard": 0.65,
+      "top5_detected": 3,
+      "all54_detected": 44
+    },
+    {
+      "variant": "Without C1 and C3 (0, 0.625, 0, 0.375)",
+      "days": 1223,
+      "r_with_base": 0.891,
+      "crisis_days": 68,
+      "episodes": 55,
+      "jaccard": 0.523,
+      "top5_detected": 2,
+      "all54_detected": 41
+    },
+    {
+      "variant": "Volume only (C2)",
+      "days": 1223,
+      "r_with_base": 0.852,
+      "crisis_days": 70,
+      "episodes": 53,
+      "jaccard": 0.446,
+      "top5_detected": 2,
+      "all54_detected": 39
+    },
+    {
+      "variant": "Crisis keywords only (C4)",
+      "days": 1223,
+      "r_with_base": 0.281,
+      "crisis_days": 106,
+      "episodes": 72,
+      "jaccard": 0.15,
+      "top5_detected": 3,
+      "all54_detected": 24
+    },
+    {
+      "variant": "C3 over all articles (labels as delivered)",
+      "days": 1223,
+      "r_with_base": 1.0,
+      "crisis_days": 63,
+      "episodes": 53,
+      "jaccard": 1.0,
+      "top5_detected": 5,
+      "all54_detected": 53
+    }
+  ],
+  "c2_variants": [
+    {
+      "variant": "C2 past-only (expanding)",
+      "days": 1223,
+      "r_with_base": 0.932,
+      "crisis_days": 40,
+      "episodes": 34,
+      "jaccard": 0.515,
+      "top5_detected": 3,
+      "all54_detected": 30
+    },
+    {
+      "variant": "C2 past-only (365-day)",
+      "days": 1223,
+      "r_with_base": 0.904,
+      "crisis_days": 44,
+      "episodes": 37,
+      "jaccard": 0.551,
+      "top5_detected": 3,
+      "all54_detected": 33
+    },
+    {
+      "variant": "C2 day-of-week adjusted",
+      "days": 1223,
+      "r_with_base": 0.92,
+      "crisis_days": 75,
+      "episodes": 57,
+      "jaccard": 0.683,
+      "top5_detected": 4,
+      "all54_detected": 47
+    },
+    {
+      "variant": "C2 articles per active outlet",
+      "days": 1223,
+      "r_with_base": 0.574,
+      "crisis_days": 62,
+      "episodes": 51,
+      "jaccard": 0.276,
+      "top5_detected": 4,
+      "all54_detected": 28
+    }
+  ],
+  "outlet_universe": {
+    "outlets_first_month": 260,
+    "outlets_last_month": 1347,
+    "slope_outlets_per_month": 21.45,
+    "p": 0.0,
+    "articles_per_outlet_first": 2.4,
+    "articles_per_outlet_last": 4.3
+  },
+  "detection_rules": [
+    {
+      "rule": "Empirical 97.7th percentile of z (τ = 2.75)",
+      "crisis_days": 28,
+      "episodes": 26,
+      "jaccard": 0.444,
+      "top5": 4
+    },
+    {
+      "rule": "Robust z (median / MAD), τ = 2",
+      "crisis_days": 98,
+      "episodes": 64,
+      "jaccard": 0.533,
+      "top5": 5
+    },
+    {
+      "rule": "14 calendar days (not valid observations)",
+      "crisis_days": 68,
+      "episodes": 56,
+      "jaccard": 0.795,
+      "top5": 5
+    },
+    {
+      "rule": "Current day included in the baseline window",
+      "crisis_days": 38,
+      "episodes": 35,
+      "jaccard": 0.578,
+      "top5": 4
+    }
+  ],
+  "changepoints": {
+    "n": 1,
+    "dates": [
+      "2023-10-24"
+    ],
+    "top5_within_7_days": 0,
+    "penalty": 20,
+    "model": "rbf (Pelt)"
+  },
+  "z_distribution": {
+    "empirical_q977": 2.75,
+    "share_above_2": 5.21,
+    "normal_expectation_pct": 2.28,
+    "skew": 0.73,
+    "excess_kurtosis": 1.84,
+    "lag1_autocorr_rrs": 0.431,
+    "lag1_autocorr_z": 0.293
+  },
+  "dedup": {
+    "exact_same_day_pct": 20.8,
+    "semantic_085_pct": 26.2,
+    "articles_after_semantic_dedup": 99268
+  },
+  "media_composition": [
+    {
+      "variant": "Semantic de-duplication (cos ≥ 0.85)",
+      "days": 1156,
+      "r_with_base": 0.952,
+      "crisis_days": 56,
+      "episodes": 47,
+      "jaccard": 0.653,
+      "top5_detected": 4,
+      "all54_detected": 40
+    },
+    {
+      "variant": "Outlet-weighted index (equal weight per outlet)",
+      "days": 1223,
+      "r_with_base": 0.988,
+      "crisis_days": 59,
+      "episodes": 52,
+      "jaccard": 0.768,
+      "top5_detected": 5,
+      "all54_detected": 47
+    },
+    {
+      "variant": "National coverage only (≥ 10 articles/day)",
+      "days": 1149,
+      "r_with_base": 0.756,
+      "crisis_days": 70,
+      "episodes": 57,
+      "jaccard": 0.462,
+      "top5_detected": 4,
+      "all54_detected": 38,
+      "share_of_articles": 28.2
+    },
+    {
+      "variant": "State and local coverage (≥ 10 articles/day)",
+      "days": 1380,
+      "r_with_base": 0.961,
+      "crisis_days": 62,
+      "episodes": 51,
+      "jaccard": 0.543,
+      "top5_detected": 5,
+      "all54_detected": 40,
+      "share_of_articles": 70.2
+    },
+    {
+      "variant": "Print outlets (≥ 10 articles/day)",
+      "days": 840,
+      "r_with_base": 0.517,
+      "crisis_days": 43,
+      "episodes": 39,
+      "jaccard": 0.191,
+      "top5_detected": 3,
+      "all54_detected": 22,
+      "share_of_articles": 17.1
+    },
+    {
+      "variant": "Digital outlets (≥ 10 articles/day)",
+      "days": 1391,
+      "r_with_base": 0.957,
+      "crisis_days": 77,
+      "episodes": 61,
+      "jaccard": 0.556,
+      "top5_detected": 4,
+      "all54_detected": 45,
+      "share_of_articles": 75.9
+    }
+  ],
+  "pca_signed": {
+    "loadings": {
+      "C1": 0.498,
+      "C2": -0.293,
+      "C3": 0.572,
+      "C4": 0.582
+    },
+    "explained": [
+      0.365,
+      0.28,
+      0.182,
+      0.173
+    ],
+    "index_corr_with_base": 0.175,
+    "variant": "PC1 score (signed loadings)",
+    "days": 1223,
+    "r_with_base": 0.175,
+    "crisis_days": 84,
+    "episodes": 68,
+    "jaccard": 0.157,
+    "top5_detected": 4,
+    "all54_detected": 25
+  },
+  "variance_contributions": {
+    "C1": 0.132,
+    "C2": 0.78,
+    "C3": 0.044,
+    "C4": 0.044
+  },
+  "double_counting": {
+    "corr_C1_C3": 0.137,
+    "corr_C1_C4": 0.274,
+    "keyword_hits": 8653,
+    "share_of_keyword_hits_in_fraud_topics_pct": 11.1,
+    "share_of_keyword_hits_bert_negative_pct": 84.8,
+    "share_all_articles_bert_negative_pct": 55.7
+  },
+  "topics": {
+    "npmi_mean_top15": -0.047,
+    "npmi_min": -0.314,
+    "npmi_max": 0.279,
+    "outlier_share_pct": 50.1,
+    "largest_topic_share_of_classified_pct": 62.3,
+    "n_topics": 79,
+    "per_topic": [
+      {
+        "topic": 0,
+        "n": 43195,
+        "npmi": -0.014
+      },
+      {
+        "topic": 1,
+        "n": 1482,
+        "npmi": 0.279
+      },
+      {
+        "topic": 2,
+        "n": 1402,
+        "npmi": -0.208
+      },
+      {
+        "topic": 3,
+        "n": 1179,
+        "npmi": -0.277
+      },
+      {
+        "topic": 4,
+        "n": 1039,
+        "npmi": -0.028
+      },
+      {
+        "topic": 5,
+        "n": 963,
+        "npmi": -0.039
+      },
+      {
+        "topic": 6,
+        "n": 933,
+        "npmi": -0.009
+      },
+      {
+        "topic": 7,
+        "n": 889,
+        "npmi": 0.082
+      },
+      {
+        "topic": 8,
+        "n": 848,
+        "npmi": -0.045
+      },
+      {
+        "topic": 9,
+        "n": 655,
+        "npmi": -0.278
+      },
+      {
+        "topic": 10,
+        "n": 632,
+        "npmi": 0.191
+      },
+      {
+        "topic": 11,
+        "n": 605,
+        "npmi": -0.094
+      },
+      {
+        "topic": 12,
+        "n": 592,
+        "npmi": 0.07
+      },
+      {
+        "topic": 13,
+        "n": 592,
+        "npmi": -0.314
+      },
+      {
+        "topic": 14,
+        "n": 583,
+        "npmi": -0.014
+      }
+    ]
+  },
+  "all_episodes_file": "results_robustez/r2/episodios_todos.csv",
+  "spanish_models": {
+    "models": {
+      "beto": {
+        "kappa_vs_manual": 0.025,
+        "accuracy_vs_manual": 0.408,
+        "macro_f1_vs_manual": 0.317,
+        "pct_negative": 15.2,
+        "corr_score_with_nlptown": 0.38,
+        "agreement_with_nlptown_pct": 25.2,
+        "index_variant": "C1 from beto",
+        "index_days": 1223,
+        "index_r_with_base": 0.941,
+        "index_crisis_days": 64,
+        "index_episodes": 52,
+        "index_jaccard": 0.608,
+        "index_top5_detected": 5,
+        "index_all54_detected": 41,
+        "monthly_neg_mean": 15.8,
+        "drift_slope_pp_per_month": -0.1287,
+        "drift_p": 0.0
+      },
+      "robertuito": {
+        "kappa_vs_manual": -0.0034,
+        "accuracy_vs_manual": 0.349,
+        "macro_f1_vs_manual": 0.28,
+        "pct_negative": 25.5,
+        "corr_score_with_nlptown": 0.496,
+        "agreement_with_nlptown_pct": 31.9,
+        "index_variant": "C1 from robertuito",
+        "index_days": 1223,
+        "index_r_with_base": 0.952,
+        "index_crisis_days": 66,
+        "index_episodes": 52,
+        "index_jaccard": 0.613,
+        "index_top5_detected": 5,
+        "index_all54_detected": 41,
+        "monthly_neg_mean": 26.5,
+        "drift_slope_pp_per_month": -0.2275,
+        "drift_p": 0.0
+      }
+    },
+    "kappa_beto_vs_robertuito": 0.411
+  }
+}

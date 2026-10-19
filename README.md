@@ -34,6 +34,30 @@ flowchart LR
 
 ---
 
+## Revision R2 (October 2026)
+
+Second review round. The tone field delivered by the monitoring service does not always contain a tone
+label: 21.2% of the delivered records carry something else. Most of those are feminine spellings
+("Positiva", "Negativa") that the original normalization mapped to Neutral, which silently discarded
+15,729 labels (1,934 of them Negative); the rest (13,846 records, 10% of the corpus, almost all in 2024)
+contain topic strings and are now treated as missing. `09_tone_recovery.py` rebuilds the labels and writes
+`data/infonavit_consolidated_v2.csv`, which scripts 06-13 use. C3 is now computed over articles with a
+valid label. With the corrected labels the index averages 33.56 (SD 6.77) and the detector flags 63 crisis
+days in 53 episodes (previously 33.06, 69 and 54); the five highest-peak episodes are unchanged.
+
+New scripts:
+
+```bash
+python scripts/09_tone_recovery.py    # recupera etiquetas y escribe el corpus v2
+python scripts/10_spanish_models.py   # BETO y RoBERTuito sobre las 138,789 notas (GPU/MPS, ~6 min)
+python scripts/11_r2_robustness.py    # auditoría de etiquetas, C2 pasado, reglas de detección,
+                                      # composición de medios, PCA con signos, NPMI, 53 episodios
+python scripts/12_validation.py       # matriz de confusión, kappa y cifras de la Sección 4.6
+python scripts/13_figure8.py          # Figura 8 (violín por categoría de tono manual)
+```
+
+Outputs: `results/revision_r2/` and `figures/revision_r2/`.
+
 ## Revision R1 (September 2026)
 
 During the first revision we found that `scripts/04_rrs_model.py` (and the

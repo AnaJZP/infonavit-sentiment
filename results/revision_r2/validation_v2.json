@@ -1,0 +1,195 @@
+{
+  "n_total": 138789,
+  "n_valid": 124943,
+  "valid_pct": 90.0,
+  "manual_distribution": {
+    "Negativo": {
+      "n": 5877,
+      "pct_of_valid": 4.7
+    },
+    "Neutral": {
+      "n": 55742,
+      "pct_of_valid": 44.6
+    },
+    "Positivo": {
+      "n": 63324,
+      "pct_of_valid": 50.7
+    }
+  },
+  "bert_distribution_all": {
+    "Negativo": {
+      "n": 77466,
+      "pct": 55.8
+    },
+    "Neutral": {
+      "n": 8602,
+      "pct": 6.2
+    },
+    "Positivo": {
+      "n": 52721,
+      "pct": 38.0
+    }
+  },
+  "bert_distribution_valid": {
+    "Negativo": {
+      "n": 70884,
+      "pct": 56.7
+    },
+    "Neutral": {
+      "n": 7754,
+      "pct": 6.2
+    },
+    "Positivo": {
+      "n": 46305,
+      "pct": 37.1
+    }
+  },
+  "nlp_score_stats": {
+    "mean": -0.13,
+    "median": -0.292,
+    "sd": 0.436
+  },
+  "confusion_manual_rows_bert_cols": {
+    "Negativo": {
+      "Negativo": 4317,
+      "Neutral": 239,
+      "Positivo": 1321
+    },
+    "Neutral": {
+      "Negativo": 28848,
+      "Neutral": 3836,
+      "Positivo": 23058
+    },
+    "Positivo": {
+      "Negativo": 37719,
+      "Neutral": 3679,
+      "Positivo": 21926
+    }
+  },
+  "confusion_row_pct": {
+    "Negativo": {
+      "Negativo": 73.5,
+      "Neutral": 4.1,
+      "Positivo": 22.5
+    },
+    "Neutral": {
+      "Negativo": 51.8,
+      "Neutral": 6.9,
+      "Positivo": 41.4
+    },
+    "Positivo": {
+      "Negativo": 59.6,
+      "Neutral": 5.8,
+      "Positivo": 34.6
+    }
+  },
+  "agreement": {
+    "kappa": -0.0019,
+    "accuracy_pct": 24.1,
+    "macro_f1": 0.211,
+    "per_class_f1": {
+      "Negativo": 0.112,
+      "Neutral": 0.121,
+      "Positivo": 0.4
+    },
+    "per_class_precision": {
+      "Negativo": 0.061,
+      "Neutral": 0.495,
+      "Positivo": 0.474
+    },
+    "per_class_recall": {
+      "Negativo": 0.735,
+      "Neutral": 0.069,
+      "Positivo": 0.346
+    }
+  },
+  "agreement_previous_labels": {
+    "kappa": -0.0056,
+    "accuracy_pct": 18.5,
+    "macro_f1": 0.176
+  },
+  "states": {
+    "share_cdmx_pct": 28.9,
+    "top_shares_pct": {
+      "Ciudad de México": 28.9,
+      "Chihuahua": 4.6,
+      "Sinaloa": 4.2,
+      "Coahuila": 4.0
+    },
+    "mean_pct_neg_top15": 4.2,
+    "ranking": [
+      {
+        "Estado_Origen": "Coahuila",
+        "pct_neg": 7.2
+      },
+      {
+        "Estado_Origen": "Guanajuato",
+        "pct_neg": 5.8
+      },
+      {
+        "Estado_Origen": "Yucatán",
+        "pct_neg": 5.8
+      },
+      {
+        "Estado_Origen": "Ciudad de México",
+        "pct_neg": 5.4
+      },
+      {
+        "Estado_Origen": "Veracruz",
+        "pct_neg": 5.0
+      },
+      {
+        "Estado_Origen": "Quintana Roo",
+        "pct_neg": 4.8
+      },
+      {
+        "Estado_Origen": "Tamaulipas",
+        "pct_neg": 4.8
+      },
+      {
+        "Estado_Origen": "Chihuahua",
+        "pct_neg": 4.4
+      },
+      {
+        "Estado_Origen": "Chiapas",
+        "pct_neg": 3.8
+      },
+      {
+        "Estado_Origen": "Sinaloa",
+        "pct_neg": 3.6
+      },
+      {
+        "Estado_Origen": "Sonora",
+        "pct_neg": 3.2
+      },
+      {
+        "Estado_Origen": "Baja California",
+        "pct_neg": 3.1
+      },
+      {
+        "Estado_Origen": "Puebla",
+        "pct_neg": 2.9
+      },
+      {
+        "Estado_Origen": "San Luis Potosí",
+        "pct_neg": 2.2
+      },
+      {
+        "Estado_Origen": "Oaxaca",
+        "pct_neg": 0.9
+      }
+    ]
+  },
+  "media_type": {
+    "Digital": {
+      "share_of_corpus_pct": 75.8,
+      "manual_neg_pct": 4.2,
+      "bert_neg_pct": 57.7
+    },
+    "Print": {
+      "share_of_corpus_pct": 17.1,
+      "manual_neg_pct": 6.9,
+      "bert_neg_pct": 50.8
+    }
+  }
+}

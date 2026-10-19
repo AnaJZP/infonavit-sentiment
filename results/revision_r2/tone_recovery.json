@@ -1,0 +1,34 @@
+{
+  "raw_records": 143618,
+  "raw_recoverable": 129510,
+  "raw_topic_strings": 14108,
+  "corpus_records": 138789,
+  "before": {
+    "Neutral": 85313,
+    "Positivo": 49533,
+    "Negativo": 3943
+  },
+  "after": {
+    "Positivo": 63324,
+    "Neutral": 55742,
+    "Negativo": 5877
+  },
+  "after_missing": 13846,
+  "after_missing_pct": 10.0,
+  "relabelled": 15729,
+  "neutral_to_negative": 1934,
+  "neutral_to_positive": 13793,
+  "after_shares_pct": {
+    "Positivo": 50.7,
+    "Neutral": 44.6,
+    "Negativo": 4.7
+  },
+  "valid_share_by_year_pct": {
+    "2019": 100.0,
+    "2020": 100.0,
+    "2021": 100.0,
+    "2022": 100.0,
+    "2023": 100.0,
+    "2024": 63.5
+  }
+}
